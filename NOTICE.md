@@ -1,30 +1,28 @@
 # 📜 Aviso Legal y Atribución — ProjectJaina_Wardrobe
 
-Este proyecto incorpora código, conceptos arquitectónicos y recursos de múltiples fuentes de la comunidad de emulación y desarrollo de World of Warcraft:
+Este repositorio forma parte del ecosistema oficial de **Project Jaina**.
+Contiene Colección visual de apariencias, visor de transfiguración y gestión de atuendos sincronizado con el catálogo autoritativo de servidor. para el cliente World of Warcraft 3.3.5a (Build 12340).
 
 ---
 
-## 1. Arquitectura Base y Localización
-- **Proyecto Origen:** PeruLand Armario
-- **Autoría Base:** Equipo de Desarrollo de PeruLand
-- **Aportes Asimilados:** Renderizado escalonado por fotogramas a 0.01s (`Ficha.lua`), desacoplamiento visual en hoja de personaje (`FichaPersonaje.lua`) y texturas de interfaz.
+## 1. Autoría y Desarrollo Oficial
+* **Desarrollador Principal:** DarckRovert (Ingame: `Elnazzareno`) & Antigravity (Mythos 5)
+* **Ecosistema:** [Project Jaina Oficial](https://darckrovert.github.io/ProjectJaina_Web/)
+* **Repositorio Oficial:** [DarckRovert/ProjectJaina_Wardrobe](https://github.com/DarckRovert/ProjectJaina_Wardrobe)
 
 ---
 
-## 2. Plantillas de Colección y Concepto Visual
-- **Proyecto de Inspiración:** Ascension WoW (`AwAddons` / `VanityCollection`)
-- **Autoría Original:** Ascension WoW Development Team
-- **Aportes Asimilados:** Concepto de previsualización 3D mediante `DressUpModel` y navegación temática por categorías.
+## 2. Arquitectura y Protocolo Autoritativo
+* **Prefijo de Red:** `WP_WARD`
+* **Integración Servidor:** `60_WardrobeSystem.lua`
+* **Variables Guardadas:** `WardrobeDB`
+* **Comandos Slash:** `/wardrobe, /ropero`
 
 ---
 
-## 3. Re-ingeniería, Hardening y Gobernanza (Project Jaina)
-- **Mantenimiento y Adaptación:** DarckRovert & Project Jaina Engineering Team
-- **Servidor y Ecosistema:** [Project Jaina — Project Jaina](https://darckrovert.github.io/ProjectJaina_Web/)
-- **Transformaciones Arquitectónicas Implementadas:**
-  1. Erradicación total del secuestro global de errores (`seterrorhandler` en `Registro.lua`).
-  2. Supresión de telemetría y transmisiones masivas de logs por canales de chat.
-  3. Eliminación de dependencias de librerías DLL inyectadas en cliente (`PeruLand.dll`).
-  4. Sustitución de dominios y URLs externas por la infraestructura oficial de Project Jaina.
-  5. Creación del backend autoritativo en Eluna (`60_WardrobeSystem.lua`) y persistencia en MySQL (`character_transmog_collection`).
-  6. Estandarización de protocolos de red bajo el prefijo unificado `WP_WARDROBE`.
+## 3. Cumplimiento de Políticas de Interfaz (Blizzard Custom UI Policy)
+En estricto cumplimiento de la Política de Interfaz de Usuario Personalizada de Blizzard Entertainment (2009):
+1. **Gratuito y Abierto:** Este software es completamente gratuito y de código abierto para la comunidad de jugadores.
+2. **Sin Alteración de Binarios:** No realiza ingeniería inversa, inyección de código ni altera binarios del juego (`WoW.exe`).
+3. **Aislamiento FrameXML:** Respeta el aislamiento de ejecución en FrameXML y no genera taint en subsistemas protegidos de combate.
+4. **Sin Publicidad ni Cobro:** No incluye anuncios publicitarios ni solicita compensación monetaria directa para el uso de sus funciones in-game.

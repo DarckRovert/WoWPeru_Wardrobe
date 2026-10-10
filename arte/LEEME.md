@@ -16,7 +16,7 @@ No son arte final.
 Durante las pruebas se usaron texturas del cliente de Ascension como
 referencia de estilo. **Son obra suya y no se suben al repositorio ni se
 reparten a los jugadores.** Viven solo en el cliente de pruebas, en
-`D:\Project JainaLand (Staging - Pruebas)\Interface\AddOns\PeruLandArmario\arte\`,
+`D:\Project JainaLand (Staging - Pruebas)\Interface\AddOns\Project JainaArmario\arte\`,
 y hay que sustituirlas por arte propio antes de publicar nada.
 
 La copia extraida para consultar esta en `D:\ascension-referencia-png\`.

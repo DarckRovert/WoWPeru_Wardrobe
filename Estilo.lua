@@ -270,7 +270,7 @@ PLARM.RAREZAS = {
     [4] = { nombre = "Legendario", color = { 1.00, 0.50, 0.00 } },
 }
 
-PLARM.RUTA_ARTE = "Interface\\AddOns\\Jaina_Wardrobe\\arte\\"
+PLARM.RUTA_ARTE = "Interface\\AddOns\\ProjectJaina_Wardrobe\\arte\\"
 
 -- ---------------------------------------------------------------------------
 --  PLARM.RutaArte  ·  la ruta que DE VERDAD carga, o nil

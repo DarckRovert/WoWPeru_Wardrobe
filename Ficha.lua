@@ -611,7 +611,7 @@ function PLARM.Ficha.Crear(padre, indice)
     --       barras invertidas al escribir ficheros. Volvio a pasar, y se
     --       tardo diez intentos en mirarlo porque «no se ve» parecia un
     --       problema de dibujo y era de ruta.
-    ruleta:SetTexture("Interface\\AddOns\\Jaina_Wardrobe\\arte\\medallon.tga")
+    ruleta:SetTexture("Interface\\AddOns\\ProjectJaina_Wardrobe\\arte\\medallon.tga")
     --  🔴 ADITIVA, O SOLO SE VE UN CUADRADO NEGRO.
     --
     --  Se extrajo el `.blp` y **se miro**: es una estrella blanca sobre fondo

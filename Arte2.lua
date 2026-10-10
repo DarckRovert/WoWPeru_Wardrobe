@@ -15,7 +15,7 @@
 
 PLARM = PLARM or {}
 
-local A = "Interface\\AddOns\\Jaina_Wardrobe\\arte2\\"
+local A = "Interface\\AddOns\\ProjectJaina_Wardrobe\\arte2\\"
 PLARM.ARTE2 = A
 
 --  { ancho usado, alto usado, ancho lienzo, alto lienzo } de cada pieza.

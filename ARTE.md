@@ -126,7 +126,7 @@ sin ellos la imagen parpadea.
 
 Es lo más importante de esta guía, porque sin esto se trabaja a ciegas.
 
-1. Deja el archivo en `Interface\AddOns\PeruLandArmario\`
+1. Deja el archivo en `Interface\AddOns\Project JainaArmario\`
    (del cliente de pruebas: `D:\Project JainaLand (Staging - Pruebas)`)
 2. **Cierra el juego y ábrelo** ← ver el aviso de abajo
 3. Dentro, escribe:
@@ -227,7 +227,7 @@ que se salen del marco.
 ### 🔴 Formato: TGA de 32 bits, de ABAJO ARRIBA
 
 ```bash
-py modelos/png_a_tga.py mi-imagen.png "D:/Project JainaLand (Staging - Pruebas)/Interface/AddOns/PeruLandArmario/arte/celda-fondo.tga"
+py modelos/png_a_tga.py mi-imagen.png "D:/Project JainaLand (Staging - Pruebas)/Interface/AddOns/Project JainaArmario/arte/celda-fondo.tga"
 ```
 
 Los lados tienen que ser **potencia de dos** (32, 64, 128, 256, 1024…).
